@@ -15,3 +15,8 @@
 - Removed the duplicate final outdoor image and redundant secondary outdoor route.
 - Added theme validation workflow to the production-code branch.
 - Opened draft PR #28 in `room-for-drama-woocommerce`: `Clean Room for Drama layout and homepage density`.
+
+- PR #28 in `room-for-drama-woocommerce` passed Theme validate and Store Core validation and was squash-merged to `main` as `ad3f446b83835215eec8d635fd9c36ad6a9724d5`.
+- Live data cleanup: orphaned WordPress Navigation record #16 was moved to Trash after confirming zero exact references; this removed the retired `/field-kits/` navigation entry.
+- Taxonomy verification: zero published posts are missing category, room, or trouble assignments.
+- Deployment verification remains open: immediately after the merge, the public rendered homepage still reflected the pre-merge theme and WordPress.com activity showed no deployment event. Treat the GitHub-to-WordPress.com handoff as unverified until the live theme reflects commit `ad3f446b83835215eec8d635fd9c36ad6a9724d5`.
