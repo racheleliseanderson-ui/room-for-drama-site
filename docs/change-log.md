@@ -20,3 +20,10 @@
 - Live data cleanup: orphaned WordPress Navigation record #16 was moved to Trash after confirming zero exact references; this removed the retired `/field-kits/` navigation entry.
 - Taxonomy verification: zero published posts are missing category, room, or trouble assignments.
 - Deployment verification remains open: immediately after the merge, the public rendered homepage still reflected the pre-merge theme and WordPress.com activity showed no deployment event. Treat the GitHub-to-WordPress.com handoff as unverified until the live theme reflects commit `ad3f446b83835215eec8d635fd9c36ad6a9724d5`.
+
+- Retired the redundant publication-side Room Lab landing page (`/room-lab/`, WordPress page 14466).
+- Merged PR #29 in `room-for-drama-woocommerce` as `ce6c6263e52da18809636eebd44a5fc6bb718ce6`.
+- Removed the local Room Lab template/routing, top-level Lab header/mobile navigation entries, breadcrumb/schema exceptions, and the Designers hub link.
+- Added a permanent `/room-lab/` redirect to the actual application at `https://lab.dramaroom.blog/`.
+- Moved WordPress page 14466 to Trash so the redundant landing page no longer remains indexable or in the page sitemap.
+- The actual Room Lab / Read application was not changed.
