@@ -9,3 +9,9 @@
 - Removed two duplicate inline TOC/grid layout injections on that branch.
 - Kept `assets/css/structure-toc.css` as the authoritative TOC layout stylesheet.
 - Reduced the desktop TOC rail footprint and moved the single-column collapse breakpoint wider to protect article width.
+
+- Simplified the homepage branch to seven major visible bands: hero, problem routes, reinventions, current article, room exploration, Outside Actually, and closing.
+- Removed the homepage-only Reading/Pulse, Room Record, six-stage Lab sequence, and Room Cases bands; the underlying systems and dedicated pages remain intact.
+- Removed the duplicate final outdoor image and redundant secondary outdoor route.
+- Added theme validation workflow to the production-code branch.
+- Opened draft PR #28 in `room-for-drama-woocommerce`: `Clean Room for Drama layout and homepage density`.
